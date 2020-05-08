@@ -1,0 +1,63 @@
+
+.container-fluid{
+  text-align: center;
+  padding:4% 15% 7%;
+
+}
+
+.second{
+  padding-top: 7%;
+  background-color: #e43f5a;
+}
+#demo{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-family: 'Alfa Slab One', cursive;
+
+  font-weight: bolder;
+  line-height: 1.5;
+}
+h2{
+  line-height:1.5;
+}
+h3{
+  padding-bottom: 2%;
+}
+.calculateButton{
+  position:relative;
+  top:50%;
+}
+.ta{
+  background-color: #e43f5a;
+}
+
+body{
+
+  text-align: center;
+}
+.titleImage{
+  width:60%;
+  position:relative;
+  bottom:10%;
+}
+
+#footer{
+  padding:7% 15% 1%;
+  text-align: center;
+}
+@media(max-width:1028px){
+    #title{
+      text-align: center;
+    }
+    .titleImage{
+      position:static;
+      transform: rotate(0);
+    }
+    .calculateButton{
+      padding-top:3%;
+      position:static;
+      transform: rotate(0);
+    }
+  }
